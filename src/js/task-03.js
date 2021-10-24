@@ -40,3 +40,5 @@ imageEl3.height = 180;
 
 const heroEl = document.querySelector('.gallery');
 heroEl.append(imageItem, imageItem2, imageItem3);
+// const result = (imageItem, imageItem2, imageItem3);
+// heroEl.insertAdjacentHTML("afterbegin",  `${imageItem}`);

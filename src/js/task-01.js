@@ -22,6 +22,26 @@ const resOfItem = document.querySelectorAll('.item');
 
 console.log('Number of categories:', resOfItem.length);
 
+const titleelements = document.querySelectorAll('h2');
+
+// console.log(titleelement);
+
+const markup = titleelements.forEach(function (titleelement) {
+   console.log('Category:', titleelement.textContent);
+
+ 
+
+  
+   console.log('Elements:', titleelement.children.length);
+});
+//   const listelements = document.querySelectorAll('ul');
+// console.log(listelements);
+
+  
+// const markup = titleelement.forEach(titleel => {
+//   console.log('Category:', titleel.textContent);
+// });
+
 // const resOfTitle = document.querySelectorAll('h2');
 // console.log(resOfTitle);
 // const keys = Object.values(resOfTitle);
