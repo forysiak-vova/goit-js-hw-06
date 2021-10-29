@@ -11,8 +11,8 @@ function onFormSubmit(e) {
       if (value === '') {
          alert('пуста строка');
       } else {
-         console.log(name);
-         console.log(value);
+         // console.log(name);
+         // console.log(value);
          e.currentTarget.reset(formData);
       };
        

@@ -7,8 +7,9 @@ const resColor = document.querySelector('.color');
 const bodyCol = document.querySelector('body');
 
 resChange.addEventListener('click', () => {
-  bodyCol.style.backgroundColor = `${getRandomHexColor()}`
- resColor.textContent = `${getRandomHexColor()}`
+  const color = `${getRandomHexColor()}`;
+  bodyCol.style.backgroundColor = color;
+  resColor.textContent = color;
 });
 
 
