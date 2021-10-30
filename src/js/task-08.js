@@ -17,7 +17,7 @@ function onFormSubmit(e) {
       mail,password
     };
     console.log(formData);
-    e.currentTarget.reset(formData);
+    e.currentTarget.reset();
     
      };
 
